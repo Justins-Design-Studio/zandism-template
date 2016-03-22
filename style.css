@@ -1,0 +1,1454 @@
+/*
+Theme Name: Zandism Contemporary Art
+Theme URI: http://www.zandism.com
+Author: Justin Fester 
+Author URI: http://www.designbiz.co.za
+Description: Minimal art gallery
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: art, responsive, white, light, three-columns, flexible-width, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, translation-ready
+Text Domain: zandism
+
+A theme created with a minimalistic approach.
+*/
+
+
+/*****************************************************************************************
+This is the styling  for the customization of the Woocommerce and Wordpress template pages.
+*********************************************************************************************/
+
+
+.cart {
+  height: auto;
+}
+
+
+
+/**********************************
+ Single Product Page Custom Styling
+************************************/
+
+
+.woocommerce-breadcrumb {
+  display: none;	
+}
+
+.images {
+  display: inline-block;
+  width: 40%;
+  margin: 0 0 0 5%;
+  padding: 10px;
+}
+
+.images:nth-child(0n+1) {
+  display: inline-block;
+  height: auto;
+  float: left;
+  margin: 40px auto 0;	
+}
+
+.images:nth-child(0n+1) img {
+  max-width: 450px;
+  width: 100%;
+  height: auto;	
+}
+
+.thumbnails a {
+  display: inline-block;
+  max-width: 100px;
+  margin: 0 0 0 1%;
+  padding: 0;
+} 
+	
+.thumbnails a img {
+  width: 100%;
+  height: auto;
+}
+	
+.tabs {
+  display: none;	
+}
+
+.summary,
+.panel {
+  display: inline-block;
+  width: 45%;
+  margin: 0 0 0 15%;
+  float: left;
+  padding: 10px;
+  overflow: auto;	
+}
+
+.panel h2 {
+  font-size: 2em;	
+}
+
+.summary h1 {
+  font-size: 2.55em;	
+}
+
+.product {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0;	
+}
+
+
+/**************************************
+Custom store button styling in main nav
+***************************************/
+
+
+#menu-item-39 {
+  background-color: #399944;
+}
+
+#menu-item-39 a {
+	width: 100%;
+  	color: #fff;
+}
+
+
+
+/**************************
+ Store Page Custom Styling
+***************************/
+
+
+
+.woocommerce-result-count,
+.woocommerce-ordering,
+#sidebar,
+#reviews {
+  display: none;	
+}
+
+.page-title,
+.page-description {
+  text-align: center;	
+}
+
+#tab-description h2 {
+  display: none;
+}
+
+.woocommerce ul.products {
+  max-width: 960px;
+  height: auto;
+  margin: 100px auto 0;
+  list-style: none;
+  padding: 15px;
+  text-align: left;
+}
+
+.woocommerce ul.products li {
+  display: inline-block;
+  width: 30%;
+  height: 500px;
+  margin: 1%;
+  overflow: auto;
+}
+
+ul.products h3,
+ul.products span {
+  display: none;	
+}
+
+.woocommerce ul.products li img {
+  width: 100%;
+  height: auto;	
+}
+
+.wp-post-image {
+  border: 2px solid white;
+}
+
+#backToStore {
+  width: 155px;
+  height: 50px;
+  margin: 10% 0 0 0;
+  padding: 5px;
+  font-size: 1.125em;
+  color: #fff;
+  border: none;
+  background-color: #399944;
+  overflow: auto;	
+}
+
+#backToStore a {
+  color: #fff;	
+}
+
+.cart button {
+  width: 96px;
+  height: 42px;
+  margin-top: 40px;
+  padding: 5px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background-color: #399944;
+  overflow: auto;	 	
+}
+
+
+
+/**************************
+ Check Out Page Custom Styling
+***************************/
+
+
+.woocommerce {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-thumbnail {
+  width: 20%;
+}
+
+.shop_table {
+  width: 100%;
+  text-align: center;
+}
+
+.woocommerce-checkout-review-order-table {
+ width: 70%;
+ margin: 0 auto;
+}
+
+.shop_table_responsive cart {
+  width: 100%;
+}
+
+.button {
+  height: auto;
+  text-align: center;
+  margin-top: 4.45%;
+  padding: 2%;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  background-color: #399944;
+  clear: both;
+}
+
+.button a {
+  color: #fff;
+}
+
+.actions {
+  margin: 5% 0;
+}
+
+.wc-forward {
+  float: none;
+}
+
+.wc-proceed-to-checkout {
+  text-align: center;
+  margin: 50px 0 10% -105.5px;
+  font-weight: bold;
+  position: relative;
+  left: 50%;
+  border: none;
+  clear: both; 
+}
+
+.wc-proceed-to-checkout a {
+  display: block;
+  color: #fff;
+  position: absolute;
+  left: 11px;
+  top: 0;
+  margin: 0;
+}
+
+#customer_details {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.woocommerce-billing-fields,
+.woocommerce-shipping-fields {
+  width: 100%;
+  margin: 5% auto;
+  padding: 0;
+  float: left;
+}
+
+.woocommerce-billing-fields h3,
+.woocommerce-shipping-fields h3 {
+  text-align: center;
+}
+
+.form-row {
+  text-align: left;
+}
+
+.input-text {
+  width: 100%;
+}
+
+#order_review_heading {
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+.woocommerce-checkout-review-order-table {
+  padding: 2%;
+  border-bottom: 1px solid black;
+}
+
+/*.select2-offscreen,
+#s2id_autogen1,
+.select2-chosen {
+  display: none;
+}*/
+
+
+#payment {
+  width: 100%;
+  margin: 3% 0 0 0;
+  float: left;
+}
+
+#place_order {
+  display: block;
+  width: 190px;
+  height: 62px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+  background-color: #399944;
+  float: none;
+}
+
+.woocommerce-message {
+  margin: 5% 0;
+}
+
+.cart_item td {
+  width: 13%;
+}
+
+.cart_item td.product-remove {
+  width: 5%;
+}
+
+.product-thumbnail {
+  width: 7%;
+}
+
+.coupon {
+  width: 35%;
+  margin-left: 65%;
+}
+
+.shop_table_responsive {
+  width: 100%;
+  margin: 0 auto 80px;
+  float: left;
+}
+
+.cart_totals {
+  width: 100%;
+  float: left;
+} 
+
+
+
+/**********************
+Custom Styling for page bg's
+***************************/
+
+/**Gallery and Blog Page**/
+
+body.page-id-5,
+.blog {
+  background-image: url("/wp-content/themes/zandism-template/images/gallery-background.jpg");
+}
+
+/**Store Page**/
+
+body.post-type-archive-product {
+  background-image: url("/wp-content/themes/zandism-template/images/shopbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#store1 {
+   color: #fff;
+}
+
+.products li a[rel=nofollow] {
+  display: none;
+}
+
+
+/**********************
+General Styling
+********************/
+
+* {
+  box-sizing: border-box;	
+}
+
+ul {
+ list-style: none;
+}
+
+header, article, footer, main, aside, figure, figcaption, nav, section {
+  display: block;	
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5;	
+}
+
+a {
+  text-decoration: none;
+  color: #565658;	
+}
+
+#shopButton,
+#submitButton {
+  width: 96px;
+  height: 42px;
+  padding: 5px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background-color: #399944;
+  overflow: auto;	
+}
+
+#portfolioGallery,
+#about,
+#blog,
+#contact {
+  text-align: center;
+  margin-top: 0;	
+}
+
+#about {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#about h1 {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 10%;
+  text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Capriola', sans-serif;
+  color: #565658;	
+}
+
+h1 {
+  font-size: 3em;	
+}
+
+h2 {
+  font-size: 2.5em;	
+}
+
+h3 {
+  font-size: 2.125em;	
+}
+
+h4 {
+  font-size: 1.75em;	
+}
+
+h5 {
+  font-size: 1.25em;	
+}
+
+h6 {
+  font-size: 1.1em;	
+}
+
+
+
+.pageNav {
+  display: none;	
+}
+
+#lg-download {
+  display: none;
+}
+
+
+/**********************
+Site Header
+********************/
+
+#mainHeader {
+  width: 100%;
+  height: 550px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;	
+}
+
+#homeLink,
+#mainHeader img {
+  max-width: 720px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;	
+}
+
+
+
+/*************************
+Footer Styling
+************************/
+
+#mainFooter {
+  width: 100%;
+  clear: both;
+  padding: 50px 0 0 0;	
+}
+
+.copyText {
+  text-align: center;
+  margin: 2%;
+}
+
+#footerLogoWrap {
+  max-width: 162px;
+  height: 239px;
+  margin: 0 auto;
+  padding: 0;	
+}
+
+#footerLogoWrap img {
+  width: 100%;
+  height: auto;	
+}
+
+
+/**********************
+Navigation
+********************/
+
+nav {
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.mainNav a {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.selected {
+  border-bottom: 2px solid black;
+  font-size: 115%;	
+}
+
+#mobileNav {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0 0 0;
+  padding: 1%;
+  background-color: #58585a;
+  display: none;
+}
+
+.burgerBar {
+  width: 50px;
+  height: 5px;
+  margin: 5px auto;
+  padding: 0;
+  display: block;
+  border-radius: 10px;
+  background-color: #fff;	
+}
+
+.mainNav {
+  width: 84%;
+  list-style: none;
+  padding: 0;
+  margin: 30px auto 0;
+  text-align: center;
+  -moz-transition: display 1s;
+  -webkit-transition: display 1s;
+  transition: display 1s;
+}
+
+.mainNav li {
+  width: 10%;
+  height: 45px;
+  display: inline-block;
+  margin: 0 2.45%;
+  padding: 1%;
+  text-align: center;
+}
+
+#socialButtons {
+  width: 96px;
+  height: 42px;
+  position: relative;
+  left: 75%;
+  padding: 0;	
+}
+
+.socialLink1,
+.socialLink2,
+.socialLink3 {
+  width:32px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background: url(/wp-content/themes/zandism-template/images/socialSprite.png);	
+}
+
+
+#socialLinkWhite1,
+#socialLinkWhite2,
+#socialLinkWhite3 {
+  width:32px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background: url(/wp-content/themes/zandism-template/images/socialSpriteWhite.png);	
+}
+
+.socialLink1,
+#socialLinkWhite1 {
+  background-position: 0px 0px;
+}
+
+.socialLink1:hover,
+#socialLinkWhite1:hover {
+ background: url(/wp-content/themes/zandism-template/images/socialSpriteHover.png);
+ background-position: 0px 0px;	
+}
+
+.socialLink2,
+#socialLinkWhite2 {
+  background-position: -32px 0px;	
+}
+
+.socialLink2:hover,
+#socialLinkWhite2:hover {
+  background: url(/wp-content/themes/zandism-template/images/socialSpriteHover.png);
+  background-position: -32px 0px;
+}
+
+.socialLink3,
+#socialLinkWhite3 {
+  background-position: -64px 0px;	
+}
+
+.socialLink3:hover,
+#socialLinkWhite3:hover {
+  background: url(/wp-content/themes/zandism-template/images/socialSpriteHover.png);
+  background-position: -64px 0px;	
+}
+
+
+/*************************
+Portfolio Gallery Section
+************************/
+
+#portfolioGallery {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+#lightGallery {
+  max-width: 1020px;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: left;
+}
+
+#lightGallery li {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin: 1%;
+}
+
+#lightGallery img {
+  width: 100%;
+  height: auto;	
+}
+
+/*****************************************************************************************************************************
+These elements are dynamically created in the popup.js file wich can be found in the root folder(js/popup.js). [Commenting them out]
+
+Each gallery item has its own unique elements and have been created for each one. there is some dynamic styling that is used 
+along with this styling to create the way it looks. There is a better way to do this by using a loop or something. Look into it.
+
+
+/**General Styling for Galery imgs**/
+
+#popupHeading,
+#popupHeading2,
+#popupHeading3,
+#popupHeading4,
+#popupHeading5,
+#popupHeading6,
+#popupHeading7,
+#popupHeading8,
+#popupHeading9,
+#popupHeading10,
+#popupHeading11,
+#popupHeading12,
+#popupHeading13,
+#popupHeading14,
+#price,
+#price2,
+#price3,
+#price4,
+#price5,
+#price6,
+#price7,
+#price8,
+#price9,
+#price10,
+#price11,
+#price12,
+#price13,
+#price14, 
+#description,
+#description2,
+#description3,
+#description4,
+#description5,
+#description6,
+#description7,
+#description8,
+#description9,
+#description10,
+#description11,
+#description12,
+#description13,
+#description14,
+#label,
+#label2, 
+#label3, 
+#label4, 
+#label5, 
+#label6, 
+#label7,
+#label8,
+#label9,
+#label10,
+#label11,
+#label12,
+#label13,
+#label14,
+#quantity,
+#quantity2,
+#quantity3,
+#quantity4,
+#quantity5,
+#quantity6,
+#quantity7,
+#quantity8,
+#quantity9,
+#quantity10,
+#quantity11,
+#quantity12,
+#quantity13,
+#quantity14 {
+  position: absolute;
+  left: 60%;	
+}
+
+#description,
+#description2,
+#description3,
+#description4,
+#description5,
+#description6,
+#description7,
+#description8,
+#description9,
+#description10,
+#description11,
+#description12,
+#description13,
+#description14 {
+  	top: 300px;
+	padding-right: 32px;
+}
+
+#galleryWrapper,
+#galleryWrapper2,
+#galleryWrapper3,
+#galleryWrapper4,
+#galleryWrapper5,
+#galleryWrapper6,
+#galleryWrapper7,
+#galleryWrapper8,
+#galleryWrapper9,
+#galleryWrapper10,
+#galleryWrapper11,
+#galleryWrapper12,
+#galleryWrapper13,
+#galleryWrapper14 {
+  	  margin: 0 30px 0 0;
+	  width: 45%;
+	  height: 600px;
+	  margin: 0;
+	  padding: 0;
+	  display: block;
+	  float: left;
+	  position: absolute;
+	  left: 20;
+}
+
+#largeImage,
+#largeImage2,
+#largeImage3,
+#largeImage4,
+#largeImage5,
+#largeImage6,
+#largeImage7,
+#largeImage8,
+#largeImage9,
+#largeImage10,
+#largeImage11,
+#largeImage12,
+#largeImage13,
+#largeImage14 {
+	 overflow: hidden;
+	 width: 100%;
+	 height: 490px;
+	 padding: 0;
+	 margin: 0;
+	 display: block;	
+	}
+	
+	
+#largeImage img,
+#largeImage2 img,
+#largeImage3 img,
+#largeImage4 img,
+#largeImage5 img,
+#largeImage6 img,
+#largeImage7 img,
+#largeImage8 img,
+#largeImage9 img,
+#largeImage10 img,
+#largeImage11 img,
+#largeImage12 img,
+#largeImage13 img,
+#largeImage14 img {
+  width: 100%;
+  height: auto;	
+}
+
+.lightgallery {
+  list-style: none;	
+  padding: 0;
+}
+
+.lightgallery a {
+  display: inline-block;
+  width: 15%;
+  height: 15%;
+  margin: 2% 0 0 2%;
+  padding: 0;	
+}
+
+.lightgallery img {
+  width: 100%;
+  height: auto;	
+}
+
+#cartButton,
+#cartButton2,
+#cartButton3,
+#cartButton4,
+#cartButton5,
+#cartButton6,
+#cartButton7,
+#cartButton8,
+#cartButton9,
+#cartButton10,
+#cartButton11,
+#cartButton12,
+#cartButton13,
+#cartButton14 {
+  position: absolute;
+  top: 500px;
+  right: 10%;	
+  width: 150px;
+  height: 60px;
+  margin: 40px 0 0 0;
+  background-color: #272727;
+  color: #fff;
+  border: none;	
+  display: none;
+}
+
+#popup,
+#popup2,
+#popup3,
+#popup4,
+#popup5,
+#popup6,
+#popup7,
+#popup8,
+#popup9,
+#popup10,
+#popup11,
+#popup12,
+#popup13,
+#popup14 {
+  height: 650px;
+  padding: 20px;
+  background: white;
+  width: 64%;
+  position: fixed;
+  top: 20vh;
+  left: 50%;
+  margin-left: -32%;
+  box-shadow: 0px 0px 1px;
+  color: #565658; 
+  	
+}
+
+#price,
+#price2,
+#price3,
+#price4,
+#price5,
+#price6,
+#price7,
+#price8,
+#price9,
+#price10,
+#price11,
+#price12,
+#price13,
+#price14 {
+  top: 250px;
+  display: none;
+
+}
+
+
+
+#label,
+#label2,
+#label3,
+#label4,
+#label5,
+#label6,
+#label7,
+#label8,
+#label9,
+#label10,
+#label11,
+#label12,
+#labe13,
+#label14 {
+  top: 350px;
+  display: none;
+
+}
+
+#quantity,
+#quantity2,
+#quantity3,
+#quantity4,
+#quantity5,
+#quantity6,
+#quantity7,
+#quantity8,
+#quantity9,
+#quantity10,
+#quantity11,
+#quantity12,
+#quantity13,
+#quantity14 {
+  top: 380px;
+  display: none;
+
+}
+
+#closeWindow,
+#closeWindow2,
+#closeWindow3,
+#closeWindow4,
+#closeWindow5,
+#closeWindow6,
+#closeWindow7,
+#closeWindow8,
+#closeWindow9,
+#closeWindow10,
+#closeWindow11,
+#closeWindow12,
+#closeWindow13,
+#closeWindow14 {
+ 	  position: absolute;
+	  top: 0;
+	  right: 20px;
+	  display: inline-block;
+	  cursor: pointer;
+}
+
+
+
+/*****************************************************************First Image*********************************************************/
+
+
+#popupHeading, #description {
+  display: block;	
+}
+
+/*****************************************************************Second Image************************************************************/
+
+
+#cartButton2 {
+  position: absolute;
+  left: 60%;	
+}
+
+
+#popupHeading2, #description2 {
+  display: block;	
+}
+
+
+
+/******************************************************************Third Image**********************************************************/
+
+
+#cartButton3 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading3, #description3, #cartButton3 {
+  display: block;	
+}
+
+
+/*****************************************************************Fourth Image**********************************************************/
+
+ #cartButton4 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading4, #description4, #cartButton4 {
+  display: block;	
+}
+
+/*****************************************************************Fifth Image**********************************************************/
+
+ #cartButton5 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading5, #description5, #cartButton5 {
+  display: block;	
+}
+
+/*****************************************************************Sixth Image**********************************************************/
+
+ #cartButton6 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading6, #description6, #cartButton6 {
+  display: block;	
+}
+
+/****************************************************************Seventh Image**********************************************************/
+
+
+ #cartButton7 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading7, #description7, #cartButton7 {
+  display: block;	
+}
+
+/******************************************************************8 Image**********************************************************/
+
+ #cartButton8 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading8, #description8, #cartButton8 {
+  display: block;	
+}
+
+/****************************************************************9 Image**********************************************************/
+
+ #cartButton9 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading9, #description9, #cartButton9 {
+  display: block;	
+}
+
+
+/***************************************************************10th Image**********************************************************/
+
+ #cartButton10 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading10, #description10, #cartButton10 {
+  display: block;	
+}
+
+
+/***************************************************************11th Image**********************************************************/
+
+ #cartButton11 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading11, #description11, #cartButton11 {
+  display: block;	
+}
+
+/***************************************************************12th Image**********************************************************/
+
+ #cartButton12 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading12, #description12, #cartButton12 {
+  display: block;	
+}
+
+/*************************************************************13th Image**********************************************************/
+
+
+ #cartButton13 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading13, #description13, #cartButton13 {
+  display: block;	
+}
+
+/*************************************************************14th Image**********************************************************/
+
+ #cartButton14 {
+  position: absolute;
+  left: 60%;	
+}
+
+#popupHeading14, #description14, #cartButton14 {
+  display: block;	
+}
+
+[End of commenting out]
+*****************************************************************************************************************************/
+
+/*************************
+Page: About
+************************/
+
+#about{
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+#aboutWrapper {
+  max-width: 960px;
+  height: 500px;
+  margin: 50px auto 50px;
+  padding: 5px 80px;
+  font-size: 1.113em;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  text-align: left;
+   -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -webkit-column-width: auto;
+  -moz-column-width: auto;
+  column-width: auto;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  -webkit-column-fill: auto;
+  -moz-column-fill: auto; 
+   column-fill: auto; 	
+}
+
+.introParagraph {
+  margin: 0;
+  font-weight: 400;	
+}
+
+
+/*************************
+Page: Blog
+************************/
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#blog {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;	
+}
+
+
+#blogRoll {
+  width: 70%;
+  min-height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+.postPreview {
+  width: 100%;
+  display: block;
+  min-height: 200px;
+  margin: 0;
+  padding: 25px;
+  text-align: left;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+}
+
+.postPreview::last-child {
+  margin: 1%;
+}
+
+.postPreview[data-readmore] {
+  max-height: auto;
+}
+
+.blogImgWrap {
+  max-width: 160px;
+  height: auto;
+  margin: 0 2% 0 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.blogImgWrap img {
+  width: 100%;
+  height: auto;
+}
+
+#blogText {
+  width: 70%;
+  text-align: left;
+  margin: 0 0 0 1%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#blogText h5 {
+  margin: 0;
+}
+
+/**This is the a element that is created from the readmore.js file from that jQuery plugin on the blog**/
+
+a[data-readmore-toggle] {
+  margin: -3.7% 0 0 80%;
+  display: block;
+  height: auto;
+  color: green;
+  font-weight: 400;
+}
+
+.postPreview h5,
+.postPreview h6 {
+  margin: 15px 0 0 0;	
+}
+
+
+/*Custom nav menus with chrome**/
+
+#blogRoll::-webkit-scrollbar {
+  width: 8px;
+  height: 15px;
+}
+ 
+#blogRoll::-webkit-scrollbar-track {
+  width: 2px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  /*border-radius: 10px;*/
+}
+ 
+#blogRoll::-webkit-scrollbar-thumb {
+  width: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+  background-color: #767572; 
+}
+
+#blogRoll::-webkit-scrollbar-track-piece {
+  width: 2px;	
+}
+
+/**The scroll indicator at the bottom of the blog(overflow:hidden element). Must still get this to work properly**/
+
+#navIndicator {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;	
+}
+
+.blogCircle {
+  width: 10px;
+  height: 10px;
+  margin: 0 0 0 2%;
+  padding: 0;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: #CCC;
+}
+
+.scrollNav {
+  background-color: #666;
+}
+	
+
+
+/*************************
+PAGE: Contact
+************************/
+
+
+#contact {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0;	
+}
+
+#contactWrap {
+  max-width: 1020px;
+  height: 400px;
+  margin: 0;
+  padding: 0;	
+}
+
+#contactWrap img {
+  width: 100%;
+  height: auto;	
+}
+
+form {
+  width: 100%;
+  height: 400px;	
+}
+
+.inputFloat {
+  width: 32%;
+  height: auto;
+  margin: 5% 0 0 1%;
+  backgound-color: none;
+  float: left;	
+  text-align: center;
+}
+
+.inputFloat input,
+.inputFloat label {
+  width: 100%;
+  margin: 1% 0 0 0;	
+}
+
+#clearfix {
+  width: 100%;
+  float: left;
+  clear: left;
+  display: block;
+  margin: 5% 0 0 1%;
+  text-align: center;	
+}
+
+#userComment {
+  float: left;
+  clear: left;
+  width: 98%;
+  margin: 1% 0 0 1%;	
+}
+
+#submitButton {
+  width: 75px;
+  height: 40px;
+  float: left;
+  display: block;
+  margin: 32px 0 0 47%;	
+}
+
+
+/*************************
+PAGE: Shop
+************************/
+
+#store {
+  background: url(../images/shopbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;	
+}
+
+#store h1,
+#store nav a {
+  color: #fff;	
+}
+
+

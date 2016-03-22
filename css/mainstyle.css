@@ -1,0 +1,853 @@
+/**********************
+General Styling
+********************/
+
+* {
+  box-sizing: border-box;	
+}
+
+header, article, footer, main, aside, figure, figcaption, nav, section {
+  display: block;	
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5;	
+}
+
+a {
+  text-decoration: none;
+  color: #565658;	
+}
+
+#shopButton,
+#submitButton {
+  width: 96px;
+  height: 42px;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background-color: #399944;
+  overflow: auto;	
+}
+
+#portfolioGallery,
+#about,
+#blog,
+#contact {
+  text-align: center;
+  margin-top: 0;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Capriola', sans-serif;
+  color: #565658;	
+}
+
+h1 {
+  font-size: 3.25em;	
+}
+
+h2 {
+  font-size: 3em;	
+}
+
+h3 {
+  font-size: 2.125em;	
+}
+
+h4 {
+  font-size: 1.75em;	
+}
+
+h5 {
+  font-size: 1.25em;	
+}
+
+h6 {
+  font-size: 1.1em;	
+}
+
+
+/**********************
+Site Header
+********************/
+
+#mainHeader {
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;	
+}
+
+#homeLink,
+#mainHeader img {
+  max-width: 720px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;	
+}
+
+
+
+/*************************
+Footer Styling
+************************/
+
+#mainFooter {
+  width: 100%;
+  padding: 50px 0 0 0;	
+}
+
+
+
+#footerLogoWrap {
+  max-width: 162px;
+  height: 239px;
+  margin: 0 auto;
+  padding: 0;	
+}
+
+#footerLogoWrap img {
+  width: 100%;
+  height: auto;	
+}
+
+
+
+
+/**********************
+Navigation
+********************/
+
+nav {
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.mainNav a {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.selected {
+  border-bottom: 2px solid black;
+  font-size: 115%;	
+}
+
+#mobileNav {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0 0 0;
+  padding: 1%;
+  background-color: #58585a;
+  display: none;
+}
+
+.burgerBar {
+  width: 50px;
+  height: 5px;
+  margin: 5px auto;
+  padding: 0;
+  display: block;
+  border-radius: 10px;
+  background-color: #fff;	
+}
+
+.mainNav {
+  width: 84%;
+  list-style: none;
+  padding: 0;
+  margin: 30px auto 0;
+  text-align: center;
+  -moz-transition: display 1s;
+  -webkit-transition: display 1s;
+  transition: display 1s;
+}
+
+.mainNav li {
+  width: 10%;
+  height: 45px;
+  display: inline-block;
+  margin: 0 2.99%;
+  padding: 15px 0 0 0;
+  text-align: center;
+}
+
+#shopButton a {
+  color: #fff;	
+}
+
+/*#socialButtons {
+  width: 96px;
+  height: 42px;
+  margin: 0 0 0 74%;
+  padding: 0;	
+}*/
+
+.socialLink1,
+.socialLink2,
+.socialLink3 {
+  width:32px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background: url(../images/socialSprite.png);	
+}
+
+
+.socialLinkWhite1,
+.socialLinkWhite2,
+.socialLinkWhite3 {
+  width:32px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background: url(../images/socialSpriteWhite.png);	
+}
+
+
+.socialLink1,
+.socialLinkWhite1 {
+  background-position: 0px 0px;
+}
+
+.socialLink1:hover,
+.socialLinkWhite1:hover {
+ background: url(../images/socialSpriteHover.png);
+ background-position: 0px 0px;	
+}
+
+.socialLink2,
+.socialLinkWhite2 {
+  background-position: -32px 0px;	
+}
+
+.socialLink2:hover,
+.socialLinkWhite2:hover {
+ background: url(../images/socialSpriteHover.png);
+ background-position: -32px 0px;
+}
+
+.socialLink3,
+.socialLinkWhite3 {
+  background-position: -64px 0px;	
+}
+
+.socialLink3:hover,
+.socialLinkWhite3:hover {
+ background: url(../images/socialSpriteHover.png);
+ background-position: -64px 0px;	
+}
+
+
+/*************************
+Portfolio Gallery Section
+************************/
+
+#portfolioGallery {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+#galleryItems {
+  max-width: 1020px;
+  height: auto;
+  margin: 0 auto;
+  list-style: none;
+  padding: 15px;
+  text-align: left;
+}
+
+#galleryItems li {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin: 1%;
+}
+
+#galleryItems img {
+  width: 100%;
+  height: auto;	
+}
+
+/*****************************************************************************************************************************
+These elements are dynamically created in the popup.js file wich can be found in the root folder(js/popup.js). [commenting out]
+
+Each gallery item has its own unique elements and have been created for each one. there is some dynamic styling that is used 
+along with this styling to create the way it looks.
+
+/**General Styling for Galery imgs**/
+
+/******
+#galleryWrapper,
+#galleryWrapper2,
+#galleryWrapper3,
+#galleryWrapper4,
+#galleryWrapper5,
+#galleryWrapper6,
+#galleryWrapper7 {
+  	  margin: 0 30px 0 0;
+	  width: 45%;
+	  height: 600px;
+	  margin: 0;
+	  padding: 0;
+	  display: block;
+	  float: left;
+	  position: absolute;
+	  left: 20;
+}
+
+#largeImage,
+#largeImage2,
+#largeImage3,
+#largeImage4,
+#largeImage5,
+#largeImage6,
+#largeImage7 {
+	 overflow: hidden;
+	 width: 100%;
+	 height: 490px;
+	 padding: 0;
+	 margin: 0;
+	 display: block;	
+	}
+	
+	
+#largeImage img,
+#largeImage2 img,
+#largeImage3 img,
+#largeImage4 img,
+#largeImage5 img,
+#largeImage6 img,
+#largeImage7 img {
+  width: 100%;
+  height: auto;	
+}
+
+#thumbGallery,
+#thumbGallery2,
+#thumbGallery3,
+#thumbGallery4,
+#thumbGallery5,
+#thumbGallery6,
+#thumbGallery7 {
+  list-style: none;	
+  padding: 0;
+}
+
+#thumbGallery li,
+#thumbGallery2 li,
+#thumbGallery3 li,
+#thumbGallery4 li,
+#thumbGallery5 li,
+#thumbGallery6 li,
+#thumbGallery7 li {
+  display: inline-block;
+  width: 15%;
+  height: 15%;
+  margin: 0 0 0 2%;
+  padding: 0;	
+}
+
+#thumbGallery img,
+#thumbGallery2 img,
+#thumbGallery3 img,
+#thumbGallery4 img,
+#thumbGallery5 img,
+#thumbGallery6 img,
+#thumbGallery7 img {
+  width: 100%;
+  height: auto;	
+}
+
+#cartButton,
+#cartButton2,
+#cartButton3,
+#cartButton4,
+#cartButton5,
+#cartButton6,
+#cartButton7 {
+  position: absolute;
+  top: 500px;
+  right: 10%;	
+  width: 150px;
+  height: 60px;
+  margin: 40px 0 0 0;
+  background-color: #272727;
+  color: #fff;
+  border: none;	
+}
+
+#popup,
+#popup2,
+#popup3,
+#popup4,
+#popup5,
+#popup6,
+#popup7 {
+  height: 650px;
+  padding: 20px;
+  background: white;
+  width: 64%;
+  position: fixed;
+  top: 20vh;
+  left: 50%;
+  margin:0 0 0 -32%;
+  box-shadow: 0px 0px 1px;
+  color: #565658; 
+  	
+}
+
+#price,
+#price2,
+#price3,
+#price4,
+#price5,
+#price6,
+#price7 {
+  top: 150px;
+
+}
+
+#description,
+#description2,
+#description3,
+#description4,
+#description5,
+#description6,
+#description7 {
+  	top: 200px;
+}
+
+#label,
+#label2,
+#label3,
+#label4,
+#label5,
+#label6,
+#label7 {
+  top: 250px;
+
+}
+
+#quantity,
+#quantity2,
+#quantity3,
+#quantity4,
+#quantity5,
+#quantity6,
+#quantity7 {
+  top: 280px;
+
+}
+
+#closeWindow,
+#closeWindow2,
+#closeWindow3,
+#closeWindow4,
+#closeWindow5,
+#closeWindow6,
+#closeWindow7 {
+ 	  position: absolute;
+	  top: 0;
+	  right: 20px;
+	  display: inline-block;
+	  cursor: pointer;
+}
+
+#popupHeading,
+#popupHeading2,
+#popupHeading3,
+#popupHeading4,
+#popupHeading5,
+#popupHeading6,
+#popupHeading7,
+#price1,
+#price2,
+#price3,
+#price4,
+#price5,
+#price6,
+#price7, 
+#description,
+#description2,
+#description3,
+#description4,
+#description5,
+#description6,
+#description7, 
+#label,
+#label2, 
+#label3, 
+#label4, 
+#label5, 
+#label6, 
+#label7,
+#quantity,
+#quantity2,
+#quantity3,
+#quantity4,
+#quantity5,
+#quantity6,
+#quantity7 {
+  position: absolute;
+  left: 50%;	
+}
+
+/**********************************************************First Image*********************************************************/
+
+
+
+
+
+
+
+
+#popupHeading, #price, #description, #quantity, #label, #cartButton {
+  display: block;	
+}
+
+
+
+/*****************************************************************Second Image************************************************************/
+
+
+#cartButton2 {
+  position: absolute;
+  left: 60%;	
+}
+
+
+
+
+#popupHeading2, #price2, #description2, #quantity2, #label2, #cartButton2 {
+  display: block;	
+}
+
+
+
+/*************************************************************************Third Image**********************************************************/
+
+
+
+
+
+#cartButton3 {
+  position: absolute;
+  left: 60%;	
+}
+
+
+
+#popupHeading3, #price3, #description3, #quantity3, #label3, #cartButton3 {
+  display: block;	
+}
+
+
+/*************************************************************************Fourth Image**********************************************************/
+
+ #cartButton4 {
+  position: absolute;
+  left: 60%;	
+}
+
+
+#popupHeading4, #price4, #description4, #quantity4, #label4, #cartButton4 {
+  display: block;	
+}
+
+
+
+/*************************************************************************Fifth Image**********************************************************/
+
+
+
+
+ #cartButton5 {
+  position: absolute;
+  left: 60%;	
+}
+
+
+#popupHeading5, #price5, #description5, #quantity5, #label5, #cartButton5 {
+  display: block;	
+}
+
+
+
+/*************************************************************************Sixth Image**********************************************************/
+
+
+
+ #cartButton6 {
+  position: absolute;
+  left: 60%;	
+}
+
+
+#popupHeading6, #price6, #description6, #quantity6, #label6, #cartButton6 {
+  display: block;	
+}
+
+
+
+/*************************************************************************Seventh Image**********************************************************/
+
+
+
+ #cartButton7 {
+  position: absolute;
+  left: 60%;	
+}
+
+
+
+#popupHeading7, #price7, #description7, #quantity7, #label7, #cartButton7 {
+  display: block;	
+}
+
+
+*****/
+[End of commenting out]
+*****************************************************************************************************************************/
+
+/*************************
+Page: About
+************************/
+
+#about{
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+#aboutWrapper {
+  max-width: 960px;
+  height: 500px;
+  margin: 50px auto 50px;
+  padding: 5px 80px;
+  font-size: 1.113em;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  text-align: left;
+   -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -webkit-column-width: auto;
+  -moz-column-width: auto;
+  column-width: auto;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  -webkit-column-fill: auto;
+  -moz-column-fill: auto; 
+   column-fill: auto; 	
+}
+
+.introParagraph {
+  margin: 0;
+  font-weight: 400;	
+}
+
+
+
+/*************************
+Page: Blog
+************************/
+
+#blog {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;		
+}
+
+#blogRoll {
+  width: 60%;
+  max-height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+.postPreview {
+  width: 100%;
+  max-height: 200px;
+  height: auto;
+  display: block;
+  margin: 0 0 10px 0;
+  padding: 25px 25px 0 25px;
+  text-align: left;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+}
+
+.postPreview[data-readmore] {
+  height: auto;
+}
+
+a[data-readmore-toggle] {
+  margin: -3.7% 0 0 80%;
+  display: block;
+  height: auto;
+  color: green;
+  font-weight: 400;
+}
+
+#blogRoll::-webkit-scrollbar {
+  width: 8px;
+  height: 15px;
+}
+ 
+#blogRoll::-webkit-scrollbar-track {
+  width: 2px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  /*border-radius: 10px;*/
+}
+ 
+#blogRoll::-webkit-scrollbar-thumb {
+  width: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+  background-color: #767572; 
+}
+
+#blogRoll::-webkit-scrollbar-track-piece {
+  width: 2px;	
+}
+
+#navIndicator {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;	
+}
+
+.blogCircle {
+  width: 10px;
+  height: 10px;
+  margin: 0 0 0 2%;
+  padding: 0;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: #CCC;
+}
+
+.scrollNav {
+  background-color: #666;
+	}
+
+
+
+/*************************
+PAGE: Contact
+************************/
+
+
+#contact {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0;	
+}
+
+#contactWrap {
+  max-width: 1020px;
+  height: 400px;
+  margin: 0;
+  padding: 0;	
+}
+
+#contactWrap img {
+  width: 100%;
+  height: auto;	
+}
+
+form {
+  width: 100%;
+  height: 400px;	
+}
+
+.inputFloat {
+  width: 32%;
+  height: auto;
+  margin: 5% 0 0 1%;
+  backgound-color: none;
+  float: left;	
+  text-align: center;
+}
+
+.inputFloat input,
+.inputFloat label {
+  width: 100%;
+  margin: 1% 0 0 0;	
+}
+
+#clearfix {
+  width: 100%;
+  float: left;
+  clear: left;
+  display: block;
+  margin: 5% 0 0 1%;
+  text-align: center;	
+}
+
+#userComment {
+  float: left;
+  clear: left;
+  width: 98%;
+  margin: 1% 0 0 1%;	
+}
+
+#submitButton {
+  width: 75px;
+  height: 40px;
+  float: left;
+  display: block;
+  margin: 32px 0 0 47%;	
+}
+
+
+/*************************
+PAGE: Shop
+************************/
+
+#store {
+  background: url(../images/shopbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;	
+}
+
+#store h1,
+#store nav a {
+  color: #fff;	
+}
+
+
+
+
+
+
+
+
+
