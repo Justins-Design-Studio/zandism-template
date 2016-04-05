@@ -100,11 +100,11 @@ Custom store button styling in main nav
 ***************************************/
 
 
-#menu-item-39 {
+.menu-item-34 {
   background-color: #399944;
 }
 
-#menu-item-39 a {
+.menu-item-34 a {
 	width: 100%;
   	color: #fff;
 }
@@ -711,7 +711,7 @@ Each gallery item has its own unique elements and have been created for each one
 along with this styling to create the way it looks. There is a better way to do this by using a loop or something. Look into it.
 
 
-/**General Styling for Galery imgs**/
+General Styling for Galery imgs
 
 #popupHeading,
 #popupHeading2,
@@ -1024,14 +1024,14 @@ along with this styling to create the way it looks. There is a better way to do 
 
 
 
-/*****************************************************************First Image*********************************************************/
+/*****************************************************************First Image*********************************************************
 
 
 #popupHeading, #description {
   display: block;	
 }
 
-/*****************************************************************Second Image************************************************************/
+/*****************************************************************Second Image************************************************************
 
 
 #cartButton2 {
@@ -1046,7 +1046,7 @@ along with this styling to create the way it looks. There is a better way to do 
 
 
 
-/******************************************************************Third Image**********************************************************/
+/******************************************************************Third Image**********************************************************
 
 
 #cartButton3 {
@@ -1059,7 +1059,7 @@ along with this styling to create the way it looks. There is a better way to do 
 }
 
 
-/*****************************************************************Fourth Image**********************************************************/
+/*****************************************************************Fourth Image**********************************************************
 
  #cartButton4 {
   position: absolute;
@@ -1070,7 +1070,7 @@ along with this styling to create the way it looks. There is a better way to do 
   display: block;	
 }
 
-/*****************************************************************Fifth Image**********************************************************/
+/*****************************************************************Fifth Image**********************************************************
 
  #cartButton5 {
   position: absolute;
@@ -1081,7 +1081,7 @@ along with this styling to create the way it looks. There is a better way to do 
   display: block;	
 }
 
-/*****************************************************************Sixth Image**********************************************************/
+/*****************************************************************Sixth Image**********************************************************
 
  #cartButton6 {
   position: absolute;
@@ -1092,7 +1092,7 @@ along with this styling to create the way it looks. There is a better way to do 
   display: block;	
 }
 
-/****************************************************************Seventh Image**********************************************************/
+/****************************************************************Seventh Image**********************************************************
 
 
  #cartButton7 {
@@ -1104,7 +1104,7 @@ along with this styling to create the way it looks. There is a better way to do 
   display: block;	
 }
 
-/******************************************************************8 Image**********************************************************/
+/******************************************************************8 Image**********************************************************
 
  #cartButton8 {
   position: absolute;
@@ -1115,7 +1115,7 @@ along with this styling to create the way it looks. There is a better way to do 
   display: block;	
 }
 
-/****************************************************************9 Image**********************************************************/
+/****************************************************************9 Image**********************************************************
 
  #cartButton9 {
   position: absolute;
@@ -1127,7 +1127,7 @@ along with this styling to create the way it looks. There is a better way to do 
 }
 
 
-/***************************************************************10th Image**********************************************************/
+/***************************************************************10th Image**********************************************************
 
  #cartButton10 {
   position: absolute;
@@ -1139,7 +1139,7 @@ along with this styling to create the way it looks. There is a better way to do 
 }
 
 
-/***************************************************************11th Image**********************************************************/
+/***************************************************************11th Image**********************************************************
 
  #cartButton11 {
   position: absolute;
@@ -1150,7 +1150,7 @@ along with this styling to create the way it looks. There is a better way to do 
   display: block;	
 }
 
-/***************************************************************12th Image**********************************************************/
+/***************************************************************12th Image**********************************************************
 
  #cartButton12 {
   position: absolute;
@@ -1161,7 +1161,7 @@ along with this styling to create the way it looks. There is a better way to do 
   display: block;	
 }
 
-/*************************************************************13th Image**********************************************************/
+/*************************************************************13th Image**********************************************************
 
 
  #cartButton13 {
@@ -1173,7 +1173,7 @@ along with this styling to create the way it looks. There is a better way to do 
   display: block;	
 }
 
-/*************************************************************14th Image**********************************************************/
+/*************************************************************14th Image**********************************************************
 
  #cartButton14 {
   position: absolute;
