@@ -369,8 +369,8 @@ Custom Styling for page bg's
 
 /**Gallery and Blog Page**/
 
-body.page-id-5,
-.blog {
+body.page-id-8,
+.page-id-14 {
   background-image: url("/wp-content/themes/zandism-template/images/gallery-background.jpg");
 }
 
