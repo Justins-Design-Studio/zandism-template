@@ -37,7 +37,6 @@ This is the styling  for the customization of the Woocommerce and Wordpress temp
 .images {
   display: inline-block;
   width: 40%;
-  margin: 0 0 0 5%;
   padding: 10px;
 }
 
@@ -45,7 +44,6 @@ This is the styling  for the customization of the Woocommerce and Wordpress temp
   display: inline-block;
   height: auto;
   float: left;
-  margin: 40px auto 0;	
 }
 
 .images:nth-child(0n+1) img {
@@ -74,7 +72,6 @@ This is the styling  for the customization of the Woocommerce and Wordpress temp
 .panel {
   display: inline-block;
   width: 45%;
-  margin: 0 0 0 15%;
   float: left;
   padding: 10px;
   overflow: auto;	
@@ -94,6 +91,10 @@ This is the styling  for the customization of the Woocommerce and Wordpress temp
   padding: 0;	
 }
 
+.single_add_to_cart_button {
+  font-size: 88%;
+  background-color: #399944;
+}
 
 /**************************************
 Custom store button styling in main nav
@@ -198,10 +199,18 @@ ul.products span {
  Check Out Page Custom Styling
 ***************************/
 
+/*
+checkout Page body class
+*/
+
+.page-id-22 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 
 .woocommerce {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .product-thumbnail {
@@ -360,6 +369,12 @@ ul.products span {
   width: 100%;
   float: left;
 } 
+
+.col-1,
+.col-2 {
+  width: 100%;
+  float: none;
+}
 
 
 
@@ -1193,7 +1208,6 @@ Page: About
 
 #about{
   width: 100%;
-  height: 500px;
   margin: 0;
   padding: 0;
 }
@@ -1222,8 +1236,7 @@ Page: About
 }
 
 .introParagraph {
-  margin: 0;
-  font-weight: 400;	
+	margin: 0.5px;
 }
 
 
