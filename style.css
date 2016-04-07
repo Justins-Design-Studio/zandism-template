@@ -116,7 +116,10 @@ Custom store button styling in main nav
  Store Page Custom Styling
 ***************************/
 
-
+.woocommerce-message {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
 .woocommerce-result-count,
 .woocommerce-ordering,
@@ -181,7 +184,7 @@ ul.products span {
   color: #fff;	
 }
 
-.cart button {
+.cart button[type=submit] {
   width: 96px;
   height: 42px;
   margin-top: 40px;
@@ -203,14 +206,15 @@ ul.products span {
 checkout Page body class
 */
 
-.page-id-22 {
-  max-width: 960px;
+
+.woocommerce {
+  width: 70%;
   margin: 0 auto;
 }
 
-
-.woocommerce {
-  width: 100%;
+.page-id-22 h1,
+.page-id-21 h1 {
+  text-align: center;
 }
 
 .product-thumbnail {
@@ -257,9 +261,7 @@ checkout Page body class
 
 .wc-proceed-to-checkout {
   text-align: center;
-  margin: 50px 0 10% -105.5px;
   font-weight: bold;
-  position: relative;
   left: 50%;
   border: none;
   clear: both; 
@@ -373,7 +375,6 @@ checkout Page body class
 .col-1,
 .col-2 {
   width: 100%;
-  float: none;
 }
 
 
@@ -384,6 +385,7 @@ Custom Styling for page bg's
 
 /**Gallery and Blog Page**/
 
+.home,
 body.page-id-8,
 .page-id-14 {
   background-image: url("/wp-content/themes/zandism-template/images/gallery-background.jpg");

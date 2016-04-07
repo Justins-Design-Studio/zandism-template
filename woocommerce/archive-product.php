@@ -109,7 +109,7 @@ get_header( 'shop' ); ?>
   jQuery(document).ready(function() {
   jQuery('#homeLink img').attr("src", "/wp-content/themes/zandism-template/images/logo-white.png");
   jQuery('#footerLogoWrap img').attr("src", "/wp-content/themes/zandism-template/images/xtc logo-white.png");
-  jQuery('#menu-main-navigation a').css("color", "#fff");
+  jQuery('#menu-menu-main a').css("color", "#fff");
   jQuery('.socialLink1').attr("id", "socialLinkWhite1");
   jQuery('.socialLink2').attr("id", "socialLinkWhite2");
   jQuery('.socialLink3').attr("id", "socialLinkWhite3");

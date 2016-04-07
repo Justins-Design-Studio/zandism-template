@@ -97,7 +97,6 @@ form {
 
 .woocommerce {
   width: 100%;
-  margin: 0;
   padding: 1%;
 }
 
@@ -148,6 +147,7 @@ end of comment out
   column-gap: 10px;
 	
 }
+
 
   }
 
