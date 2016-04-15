@@ -28,9 +28,7 @@ EMAIL;
 mail($to, $subject, $message, "From:".$email);
 
 function message_sent() {
-                
-                     echo "Your message has been sent";
-               
+                    echo "Your message has been sent.";
                 };
 
 ?>
@@ -46,9 +44,9 @@ function message_sent() {
             </div>
             <p class="contactText">For all enquiries regarding original artworks, prints or private commissions, please fill out the form below.</p>
             
-            <form action="?" method="post">
+            <form action="?" method="post" onsubmit="message_sent()">
                 
-                <p><?php message_sent(); ?></p>
+                <p id="message"></p>
             
                 <div class="inputFloat">
                     <label for="Name">Your Name:</label>
