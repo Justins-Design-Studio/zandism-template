@@ -701,7 +701,7 @@ Portfolio Gallery Section
 }
 
 
-#lightGallery {
+.lightGallery {
   max-width: 1020px;
   height: auto;
   margin: 0 auto;
@@ -709,14 +709,14 @@ Portfolio Gallery Section
   text-align: left;
 }
 
-#lightGallery li {
+.lightGallery li {
   display: inline-block;
   width: 30%;
   height: auto;
   margin: 1%;
 }
 
-#lightGallery img {
+.lightGallery img {
   width: 100%;
   height: auto;	
 }
@@ -1304,7 +1304,7 @@ Page: Blog
   height: auto;
 }
 
-#blogText {
+.blogContent {
   width: 70%;
   text-align: left;
   margin: 0 0 0 1%;
@@ -1312,7 +1312,7 @@ Page: Blog
   vertical-align: top;
 }
 
-#blogText h5 {
+.blogContent h5 {
   margin: 0;
 }
 

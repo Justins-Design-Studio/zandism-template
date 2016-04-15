@@ -1,3 +1,5 @@
-jQuery(document).ready(function() {
-        jQuery("#lightGallery").lightGallery(); 
+jQuery(document).ready(function() {
+
+        jQuery(".lightGallery").lightGallery(); 
+
           });

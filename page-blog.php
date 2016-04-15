@@ -27,13 +27,17 @@
          <article class="postPreview">
          
               <div class="blogImgWrap">
-                <img src="images/portfolio_page_images/Landscape.png" alt="The Zandism Artwork">
+                <?php the_post_thumbnail(); ?>
               </div>
+
+              <div class="blogContent">
           
-              <h5><?php the_title(); ?></h5>
-              <h6><?php the_date();  ?></h6>
-          
-              <p><?php the_content(); ?></p>
+                  <h5><?php the_title(); ?></h5>
+                  <h6><?php the_date();  ?></h6>
+              
+                  <p><?php the_content(); ?></p>
+
+              </div>
           
           </article>
           
