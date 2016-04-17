@@ -188,7 +188,7 @@ Comment out popup.js rules
 end of comment out
 ********************/
 	
-#lightGallery li,
+.lightGallery li,
 .woocommerce ul.products li {
     width: 47%;
 }
@@ -466,10 +466,7 @@ End of comment out
   margin: 1%;	
 }
 
-.blogImgWrap {
-  width: 100%;
-  margin: 0 auto;	
-}
+
 
 	
   }
@@ -480,9 +477,6 @@ End of comment out
  height: 200px;	
 }
 
-.blogImgWrap {
-  max-width: 100%;	
-}
 
 .wc_payment_methods {
   padding: 0;
@@ -540,13 +534,18 @@ End of comment out
 @media (max-width: 558px) {
 
 	
-#lightGallery li,
+.lightGallery li,
 .woocommerce ul.products li {
     width: 100%;
 }
 
 a[data-readmore-toggle] {
    margin: -40px 0 0 70%;
+}
+
+.blogImgWrap {
+  width: 100%;
+  margin: 0 auto; 
 }
 
 

@@ -285,7 +285,6 @@ checkout Page body class
 .woocommerce-billing-fields,
 .woocommerce-shipping-fields {
   width: 100%;
-  margin: 5% auto;
   padding: 0;
   float: left;
 }
@@ -341,7 +340,7 @@ checkout Page body class
 }
 
 .woocommerce-message {
-  margin: 5% 0;
+  margin: 5% auto;
 }
 
 .cart_item td {
@@ -369,7 +368,7 @@ checkout Page body class
 
 .cart_totals {
   width: 100%;
-  float: left;
+  margin: 0 auto;
 } 
 
 .col-1,
@@ -476,6 +475,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Capriola', sans-serif;
   color: #565658;	
+  text-align: center;
 }
 
 h1 {
@@ -483,7 +483,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5em;	
+  font-size: 2.5em;
+
 }
 
 h3 {
